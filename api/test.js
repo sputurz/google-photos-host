@@ -1,6 +1,8 @@
-export default async function handler(req, res) {
-  res.json({ 
-    message: "Vercel project is working!",
-    status: "OK" 
+// api/test.js
+export default function handler(request, response) {
+  response.status(200).json({
+    message: "Hello from Vercel!",
+    status: "OK",
+    timestamp: new Date().toISOString()
   });
 }

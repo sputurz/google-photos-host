@@ -1,15 +1,5 @@
 {
-  "name": "google-photos-host",
+  "name": "google-photos-album",
   "version": "1.0.0",
-  "description": "Google Photos album host",
-  "scripts": {
-    "dev": "vercel dev"
-  },
-  "dependencies": {
-    "googleapis": "^126.0.1",
-    "cors": "^2.8.5"
-  },
-  "devDependencies": {
-    "vercel": "^28.0.0"
-  }
+  "type": "module"
 }
